@@ -1,0 +1,206 @@
+.dialer-login {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.dialer-login .dialer-login-inner {
+  max-width: 350px;
+}
+.dialer-login
+  .dialer-login-inner
+  .dialer-login-form
+  .dialer-form
+  .dialer-form-inner {
+  width: 100%;
+  padding: 20px 25px;
+  background-color: #fff;
+  border-radius: 10px;
+  min-width: 350px;
+}
+.dialer-login
+  .dialer-login-inner
+  .dialer-login-form
+  .dialer-form
+  .dialer-form-inner
+  img {
+  object-fit: contain;
+}
+
+.dialer-login .dialer-login-inner .dialer-login-form .dialer-form h3 {
+  font-size: 18px;
+  margin-bottom: 10%;
+  color: #000;
+}
+.dialer-login
+  .dialer-login-inner
+  .dialer-login-form
+  .dialer-form
+  .dialer-formElement {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.dialer-login
+  .dialer-login-inner
+  .dialer-login-form
+  .dialer-form
+  .dialer-formElement
+  .formElement {
+  margin-bottom: 0px;
+  position: relative;
+  padding: 5px 5px 5px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background: #f2f2f2;
+  border-radius: 6px;
+  height: 50px;
+}
+.dialer-login
+  .dialer-login-inner
+  .dialer-login-form
+  .dialer-form
+  .dialer-formElement
+  .formElement
+  .icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 18px;
+  height: 18px;
+  color: black;
+}
+.dialer-login
+  .dialer-login-inner
+  .dialer-login-form
+  .dialer-form
+  .dialer-formElement
+  .formElement
+  input {
+  background: transparent;
+  border: 0px solid transparent;
+  box-sizing: content-box;
+  font-size: 16px;
+  width: 100%;
+  outline: none;
+  border-left: none;
+  display: inline-block;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.dialer-login
+  .dialer-login-inner
+  .dialer-login-form
+  .dialer-form
+  .dialer-formElement
+  .formElement
+  input:focus {
+  box-shadow: none;
+}
+.dialer-login .dialer-login-inner .dialer-login-form .dialer-form .formSubmit {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dialer-login
+  .dialer-login-inner
+  .dialer-login-form
+  .dialer-form
+  .formSubmit
+  button {
+  width: 100%;
+  background: #13a1df;
+  height: 50px;
+  border:none;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 50px;
+}
+
+.dialer-login
+  .dialer-login-inner
+  .dialer-login-form
+  .dialer-form
+  .formSubmit.formSubmitButton
+  button {
+  background: #fff;
+  color: #000;
+  border-color: transparent;
+  text-transform: initial;
+  font-weight: 700;
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+.dialer-login
+  .dialer-login-inner
+  .dialer-login-form
+  .dialer-form
+  .formSubmit.formSubmitButton
+  img {
+  max-width: 25px;
+  margin-right: 20px;
+}
+.dialer-login
+  .dialer-login-inner
+  .dialer-login-form
+  .dialer-form
+  .dialer-custom-link {
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  color: #13a1df;
+  border-bottom: 2px solid transparent;
+}
+.dialer-login
+  .dialer-login-inner
+  .dialer-login-form
+  .dialer-form
+  .dialer-custom-link:hover {
+  border-bottom: 2px solid #13a1df;
+}
+.dialer-login .dialer-login-inner .dialer-login-form .dialer-form .text-small {
+  font-size: 14px;
+  margin-left: 5px;
+}
+.dialer-copyright {
+  color: #ddd;
+}
+.dialer-copyright span {
+  border-right: 1px solid #ddd;
+  margin-bottom: 2px;
+}
+.face:hover {
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
